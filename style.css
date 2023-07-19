@@ -1,0 +1,45 @@
+.container-blackjack{
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+.flexbox-container-blackjack-row1 , .flexbox-container-blackjack-row2, 
+.flexbox-container-blackjack-row3{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.flexbox-container-blackjack-row1 , .flexbox-container-blackjack-row2{
+    height: 100%;
+    background-image: url(https://t3.ftcdn.net/jpg/03/25/38/64/360_F_325386410_7XLHgFBmPH10k0GCUXbikWCAeFFC8145.jpg);
+    color: white;
+}
+
+table, th,td{
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 25px;
+    font-style: italic;
+}
+
+#yourBox,#croupierBox{
+    height: 400px;
+    flex: 1;
+    border: 1px solid black;
+}
+
+#cartaYou , #cartaDealer{
+    height: 37%;
+    width: 20%;
+    margin: 10px;
+}
+
+
+
